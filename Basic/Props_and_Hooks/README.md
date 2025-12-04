@@ -10,7 +10,7 @@ This displays a collection of student score cards using React, props, and hooks.
 ## 👋🏻 Output Image
 An output screenshot of the score cards is stored in the `public` folder:
 
-**Path:** `public/output.png`
+**Path:** `output/output.png`
 
 ```md
 ![Scores Card Output](output/output.png)
