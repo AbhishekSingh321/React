@@ -13,4 +13,4 @@ An output screenshot of the score cards is stored in the `public` folder:
 **Path:** `public/output.png`
 
 ```md
-![Scores Card Output](public/output.png)
+![Scores Card Output](output/output.png)
