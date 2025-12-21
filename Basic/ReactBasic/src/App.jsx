@@ -1,6 +1,7 @@
 import Conditional from "./conditional-rendering-lists-keys/Conditional"
 import CustomFilterList from "./conditional-rendering-lists-keys/CustomFilterList"
 import List from "./conditional-rendering-lists-keys/List"
+import UserSearchList from "./useEffect/UserSearchList"
 
 function App(){
   return(
@@ -8,6 +9,7 @@ function App(){
     <Conditional/>
     <List/>
     <CustomFilterList/>
+    <UserSearchList/>
     </>
   )
 }
