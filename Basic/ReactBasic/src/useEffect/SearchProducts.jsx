@@ -1,3 +1,4 @@
+import Card from "../components/Card";
 import './SearchProducts.css'
 import {useEffect,useState} from "react";
 
@@ -17,14 +18,12 @@ export default function SearchProducts(){
 
   return (
     <>
-    <input placeholder="Search products..." value={search} onChange={e=>setSearch(e.target.value)}/>
-    <div>
+    <input  className="search-input" placeholder="Search products..." value={search} onChange={e=>setSearch(e.target.value)}/>
+    <div className="product-list">
       <ul>
         {filtered.map(product=>(
          <li key={product.id}>
-          {product.title}
-          <img src={product.image} alt="" />
-          {product.price}
+          <Card title={product.title} image={product.image} price={product.price}/>
          </li>
         ))}
       </ul>
