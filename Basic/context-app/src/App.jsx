@@ -1,11 +1,13 @@
-
+import Profile from"./components/Profile";
+import Login from "./components/Login";
 
 function App() {
-  return (
-    <>
-      
-    </>
-  )
+return (
+  <>
+  <Profile />
+  <Login/>
+  </>
+  );
 }
 
-export default App
+export default App;
