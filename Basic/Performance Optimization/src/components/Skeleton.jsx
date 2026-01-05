@@ -1,10 +1,10 @@
 import "./skeleton.css";
 
-export default function Skeleton({ height = "20px", width = "100%" }) {
+export default function Skeleton({ height = "20px", width = "100%", borderRadius }) {
   return (
     <div
       className="skeleton"
-      style={{ height, width }}
+      style={{ height, width, borderRadius }}
     />
   );
 }

@@ -1,9 +1,13 @@
-import Skeleton from './components/Skeleton'
+import CardSkeleton from './components/CardSkeleton'
 
 function App() {
   return (
     <>
-      <Skeleton width='200px' height='200px'/>
+      <div style={{display:'flex', gap: '20px', padding: '20px'}}>
+        <CardSkeleton/>
+        <CardSkeleton />
+        <CardSkeleton />
+      </div>
     </>
   )
 }
